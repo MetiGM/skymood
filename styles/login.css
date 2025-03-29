@@ -1,0 +1,327 @@
+/* @import url('https://fonts.cdnfonts.com/css/amagro'); */
+@import url('https://fonts.cdnfonts.com/css/babylon');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+body {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 214, 188);
+}
+
+.head {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(231deg, rgba(34, 193, 195, 1) 0%, rgba(191, 219, 181, 1) 48%, rgba(253, 187, 45, 1) 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    z-index: 0;
+    width: 100%;
+}
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(59, 56, 51);
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    height: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.name {
+    position: relative;
+    margin-left: 130px;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Babylon', sans-serif;
+    font-size: 33px;
+    color: #333;
+}
+
+.cloud1 {
+    position: absolute;
+    scale: 40%;
+    padding: 10px;
+    animation: animateCloud 60s linear infinite;
+    margin: 90px;
+}
+
+.cloud2 {
+    position: absolute;
+    scale: 40%;
+    padding: 10px;
+    animation: animateCloud 60s linear infinite;
+    margin: 90px;
+}
+
+.cloud3 {
+    position: absolute;
+    scale: 40%;
+    padding: 10px;
+    animation: animateCloud 60s linear infinite;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+
+.cloud4 {
+    position: relative;
+    scale: 500%;
+    padding: 15px;
+    animation: animateCloud 60s linear infinite;
+    object-position: right top;
+    transform: translateX(2100%) translateY(-600px);
+}
+
+.base1 {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 20px;
+    background: #ddd4d0;
+    border-radius: 100px;
+    /* background: radial-gradient(75% 110% at bottom, #ddd4d0 80%, #fff 100%); */
+    background: linear-gradient(#fff, #ddd4d0 40%);
+
+}
+
+.base2 {
+    position: relative;
+    top: 25px;
+    width: 150px;
+    height: 10px;
+    background: #ddd4d0;
+    border-radius: 100px;
+    /* background: radial-gradient(75% 110% at bottom, #ddd4d0 80%, #fff 100%); */
+    background: linear-gradient(#fff, #ddd4d0 40%);
+}
+
+.base3 {
+    position: relative;
+    top: 35px;
+    width: 250px;
+    height: 20px;
+    background: #ddd4d0;
+    border-radius: 100px;
+    /* background: radial-gradient(75% 110% at bottom, #ddd4d0 80%, #fff 100%); */
+    background: linear-gradient(#fff, #ddd4d0 40%);
+}
+
+.base4 {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 20px;
+    background: #ddd4d0;
+    border-radius: 100px;
+    /* background: radial-gradient(75% 110% at bottom, #ddd4d0 80%, #fff 100%); */
+    background: linear-gradient(#fff, #ddd4d0 40%);
+
+}
+
+.one {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 40px;
+    width: 120px;
+    height: 120px;
+    background: #ddd4d0;
+    border-radius: 50%;
+    background: radial-gradient(100% 80% at bottom right, #ddd4d0 110%, #fff 130%);
+    /* box-shadow: 100px -30px 0 30px #fff; */
+}
+
+.two {
+    content: '';
+    position: absolute;
+    top: -170px;
+    left: 135px;
+    width: 150px;
+    height: 190px;
+    background: #ddd4d0;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 40%;
+    background: radial-gradient(75% 110% at bottom, #ddd4d0 85%, #fff 90%);
+    /* background: linear-gradient( 145deg, #fff 10.5%, #ddd4d0 30%); */
+}
+/*HEADER ENDS HERE*/
+
+
+.large-cloud{
+    justify-content: center;
+    align-self: center;
+    scale: 100%;
+    padding: 20px;
+    animation: animateCloud 60s linear infinite;
+    margin: 90px;
+    
+
+}
+.large-base {
+    position: relative;
+    top: 40px;
+    width: 500px;
+    height: 200px;
+    background: #ddd4d0;
+    border-radius: 100px;
+    /* background: radial-gradient(75% 110% at bottom, #ddd4d0 80%, #fff 100%); */
+    background: linear-gradient(#fff, #ddd4d0 40%);
+}
+.large-one{
+    content: '';
+    position: absolute;
+    top: -110px;
+    left: 120px;
+    width: 300px;
+    height: 300px;
+    background: #ebe8e8;
+    border-radius: 50%;
+    background: radial-gradient(100% 80% at bottom right, #ddd4d0 110%, #fff 130%);
+}
+
+.login-section {
+    width: 500px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgba(253, 187, 45, 1);
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(34, 193, 195, 1);
+  }
+
+
+
+
+/*FOOTER*/
+
+
+.foot {
+    position: relative;
+    width: 100%;
+    background: #24948b;
+    min-height: 20px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 400;
+}
+
+.menu__link:hover {
+    opacity: 1;
+}
+
+.footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
